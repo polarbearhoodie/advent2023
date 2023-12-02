@@ -1,15 +1,6 @@
+import helper as hp
 
-def parse_input(name):
-    ret = []
-    file = open(name,  "r")
-    for line in file:
-        ret.append(line.strip())
-
-    return ret
-
-array = parse_input("input1")
-
-
+array = hp.parse_input("input1")
 
 def digits_in_string(string_input):
     # first and last digits
